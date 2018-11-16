@@ -333,7 +333,7 @@ compile_rbrain_model_for_closed_robots(JAXON JAXON JAXON
   --conf-file-option "ltc_pgain: 300,300,300,300"
   --conf-file-option "ltc_dgain: 10,10,10,10"
   --conf-file-option "ltc_ee_pgain: 400,400,400,250,250,250"
-  --conf-file-option "ltc_ee_dgain: 30,30,30,50,50,50"
+  --conf-file-option "ltc_ee_dgain: 3,3,3,3,3,3"
   --conf-file-option "ltc_cgain: 300,300,300,300"
   --conf-file-option "ltc_rgain: 1.0,1.0,1.0,1.0"
   --conf-file-option "ltc_climit: 30.0,35.0,40.0,40.0,18.0,22.0,30.0,35.0,40.0,40.0,18.0,22.0,40.0,40.0,20.0,15.0,15.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0"
