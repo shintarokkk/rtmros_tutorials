@@ -1,0 +1,24 @@
+##
+## - collada_joint_name : euslisp_joint_name (start with :)
+##
+
+rarm:
+  - RARM_JOINT0   : rarm-crotch-y
+  - RARM_JOINT1   : rarm-crotch-r
+  - RARM_JOINT2   : rarm-crotch-p
+  - RARM_JOINT3   : rarm-knee-p
+  - RARM_JOINT4   : rarm-ankle-p
+  - RARM_JOINT5   : rarm-ankle-r
+
+##
+## end-coords
+##
+rarm-end-coords:
+  translate : [0.0, -0.05, 0.0]
+
+##
+## reset-pose
+##
+angle-vector:
+reset-pose : [-90, 90, -90, 90, -90, 90]
+
